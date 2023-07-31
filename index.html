@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github users</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="bg-success text-light sticky-top">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <h1 class="text-center">Users</h1>
+          <form class="d-flex w-50" id="myForm">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+              id="search"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-4"></div>
+      <nav class="pagination" aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js "></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
